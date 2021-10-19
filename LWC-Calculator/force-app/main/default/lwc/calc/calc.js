@@ -30,7 +30,7 @@ export default class Calc extends LightningElement {
 
     }
 
-    getShowResult() {
+    get showResult() {
         return this.operations.current;
     }
 
